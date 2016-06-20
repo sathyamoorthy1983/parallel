@@ -26,6 +26,7 @@ public class B {
 
 	  driver.get("http://amazon.co.in");
 System.out.println("code A");
+System.out.println("code B");
 	  driver.close();
 	}
 
