@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" allow-return-values="true">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.InboxTest">
+        <methods>
+          <include name="click" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.InboxTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="checkvaliduser"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddressTest">
+        <methods>
+          <include name="mm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.AddressTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

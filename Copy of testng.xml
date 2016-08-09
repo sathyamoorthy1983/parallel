@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" annotations="JDK">
+ <test name="regression suite">
+    <groups>
+    <dependencies>
+   <group name="Regression" depends-on="Smoke" />
+   </dependencies>
+    </groups>
+     <packages>
+      <package name=".*" />
+    </packages>
+      </test>
+     </suite>
+</suite> <!-- Suite -->
